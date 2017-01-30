@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rstrurnt_actvty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:background="#616D7E"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.rr.favouritesite.RstrurntActvty">
+
+    <Button
+        android:text="Subway"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        android:background="#313B3B"
+        android:id="@+id/buttonSub"
+        android:textColor="#E5E4E2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="KFC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:background="#313B3B"
+        android:textColor="#E5E4E2"
+        android:id="@+id/buttonKFC"
+        android:layout_below="@+id/buttonSub"
+        android:layout_alignLeft="@+id/buttonSub"
+        android:layout_alignStart="@+id/buttonSub" />
+
+    <Button
+        android:text="Pizza Hut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:background="#313B3B"
+        android:textColor="#E5E4E2"
+        android:id="@+id/buttonPizzza"
+        android:layout_below="@+id/buttonKFC"
+        android:layout_alignLeft="@+id/buttonKFC"
+        android:layout_alignStart="@+id/buttonKFC" />
+
+    <Button
+        android:text="Dominos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="39dp"
+        android:id="@+id/buttonDom"
+        android:textColor="#E5E4E2"
+        android:background="#313B3B"
+        android:layout_below="@+id/buttonPizzza"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#313B3B"
+        android:textColor="#E5E4E2"
+        android:id="@+id/buttonGO"
+        android:layout_below="@+id/buttonDom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp"
+        android:text="Mcdonald" />
+
+</RelativeLayout>
